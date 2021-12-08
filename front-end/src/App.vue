@@ -8,6 +8,9 @@
       </nav>
     </header>
     <router-view />
+    <div class="footer">
+      <a href="https://github.com/Churchillc/photobomb">GitHub</a>
+    </div>
   </div>
 </template>
 
@@ -22,6 +25,16 @@ body {
   font-weight: 300;
   font-size: 13pt;
   margin: 0px 200px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #e74c3c;
+  color: white;
+  text-align: center;
 }
 
 #header {
